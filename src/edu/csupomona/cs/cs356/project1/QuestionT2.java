@@ -10,12 +10,13 @@
 package edu.csupomona.cs.cs356.project1;
 
 import java.util.Hashtable;
+import java.util.Map;
 import java.util.Random;
 
 public class QuestionT2 implements QuestionInt{
 
 	//hashtable to associate the MC question number to the question/response string
-	private Hashtable<Integer, String> tf = new Hashtable<>();
+	private Map<Integer, String> tf = new Hashtable<>();
 	//random generator to decide which question is displayed 
 	private Random r = new Random();
 	//string to hold the question/response

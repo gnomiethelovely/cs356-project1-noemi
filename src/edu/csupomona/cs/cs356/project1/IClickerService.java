@@ -10,11 +10,12 @@
 package edu.csupomona.cs.cs356.project1;
 
 import java.util.Hashtable;
+import java.util.Map;
 
 public class IClickerService implements IClickerServiceInt{
 	
 	//instantiates hashtable to store student IDs and answers
-	private Hashtable<String, Integer> answers = new Hashtable<>();
+	private Map<String, Integer> answers = new Hashtable<>();
 	//used to determine what output formats should be used
 	private int num;
 	//initialized counters for the number of a kind of response given
