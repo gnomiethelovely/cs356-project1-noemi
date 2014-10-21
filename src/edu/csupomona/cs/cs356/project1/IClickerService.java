@@ -11,7 +11,7 @@ package edu.csupomona.cs.cs356.project1;
 
 import java.util.Hashtable;
 
-public class IClickerService {
+public class IClickerService implements IClickerServiceInt{
 	
 	//instantiates hashtable to store student IDs and answers
 	private Hashtable<String, Integer> answers = new Hashtable<>();
@@ -94,5 +94,17 @@ public class IClickerService {
 		b = 0; 
 		c = 0; 
 		d = 0;		 
+	}
+
+	@Override
+	public void recieveAnswer(Student s) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void displayResult() {
+		// TODO Auto-generated method stub
+		
 	}
 }
