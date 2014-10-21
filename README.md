@@ -1,3 +1,3 @@
 cs356-project1-noemi
 ====================
-hello
+Project simulates an IClicker service using object oriented design principles.
